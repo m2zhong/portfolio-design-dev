@@ -1,2 +1,2 @@
 # portfolio-design-dev
-Web Portfolio
+Michael Zhong's Web Portfolio
