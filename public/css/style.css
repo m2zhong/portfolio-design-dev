@@ -31,16 +31,18 @@ h4{
 }
 
 nav{
-    background-color: #bbdefb;
+    height: 100px;
+    width: auto;
+    background-color: #615478;
     color: black;
     box-shadow: none;
 }
 
 .deck-1{
     width: auto;
-    height: 720px;
-    background: #bbdefb;
-    padding-top: 15%;
+    height: 100%;
+    background: #615478;
+    padding-top: 10%;
     padding-bottom: 15%;
 }
 
@@ -62,4 +64,11 @@ nav{
 .timeline-cards{
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.card{
+    height: 20%;
+    min-height: 150px;
+    max-height: 300px;
+    width: auto;
 }
