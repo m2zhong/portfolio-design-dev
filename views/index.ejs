@@ -1,8 +1,16 @@
+<!DOCTYPE html>
 <head>
-    <title>Michael's Portfolio</title>
+    <title>MZ | Design | Software</title>
+
+
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <!-- Import Stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
+
+    <!-- importing JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
@@ -13,32 +21,153 @@
     <!--Import icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <!--Importing Javascript-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-
     <!--Optimizing website for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
 <body>
-    <div class="container">
-        <nav>
+    <nav>
+        <div class="container">
             <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Michael's</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Logo</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html"><i class="material-icons">search</i></a></li>
-                    <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
-                    <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
-                    <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+                    <li><a href="sass.html"><i class="material-icons left">filter_vintage</i>Design</a></li>
+                    <li><a href="badges.html"><i class="material-icons left">developer_mode</i>Software</a></li>
+                    <li><a href="collapsible.html"><i class="material-icons left">description</i>Resume</a></li>
+                    <li><a class="waves-effect waves-light btn white black-text">Say "Hi"<i class="material-icons left">chat_bubble_outline</i></a></li>
                 </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
 
-        <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">JavaScript</a></li>
-        </ul>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html"><i class="material-icons left">filter_vintage</i>Design</a></li>
+        <li><a href="badges.html"><i class="material-icons left">developer_mode</i>Software</a></li>
+        <li><a href="collapsible.html"><i class="material-icons left">description</i>Resume</a></li>
+        <li><a class="waves-effect waves-light btn red white-text">Say "Hi"<i class="material-icons white-text left">chat_bubble_outline</i></a></li>
+    </ul>
+
+    <div class="deck-1 hide-on-med-and-up">
+        <h4 class="center-align">What are we looking for?</h4>
+        <br>
+        <div class="deck-1-content-sm">
+            <div class="container">
+                <div class="center-align">
+                    <div class="row">
+                        <div class="col s12 m12 l12">
+                            <div class="card hoverable">
+                                <div class="card-title">Designer</div>
+                                <div class="card-content">Sketch App, Principle Animation, Unity 3D</div>
+                            </div>
+
+                            <div class="card hoverable">
+                                <div class="card-title">Developer</div>
+                                <div class="card-content">Web Node.js, Android Mobile, Python Scripts</div>
+                            </div>
+
+                            <div class="card hoverable">
+                                <div class="card-title">Experience</div>
+                                <div class="card-content">T-Mobile, Nordson Asymtek, UC San Diego</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="deck-1 hide-on-small-only">
+        <div class="deck-1-content">
+            <div class="container">
+                <div class="center-align">
+                    <h4 class="center-align">What are we looking for?</h4>
+                    <br>
+                    <div class="row">
+                        <div class="col s4 m4 l4">
+                            <div class="card hoverable">
+                                <div class="card-title">Designer</div>
+                                <div class="card-content">Research, Sketch Prototype, Principle Animation, Unity 3D</div>
+                            </div>
+                        </div>
+                        <div class="col s4 m4 l4">
+                            <div class="card hoverable">
+                                <div class="card-title">Developer</div>
+                                <div class="card-content">Web Node.js, Android Mobile, Python Scripts</div>
+                            </div>
+                        </div>
+
+                        <div class="col s4 m4 l4">
+                            <div class="card hoverable">
+                                <div class="card-title">Experience</div>
+                                <div class="card-content">T-Mobile, Nordson Asymtek, UC San Diego</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="deck-2">
+        <div class="container">
+            <div class="center-align">
+                <div class="row">
+                    <h4>Since Graduation</h4>
+                    <br>
+                    <div class="amber darken-1 white-text card timeline-cards hoverable">
+                        <div class="card-title">UC San Diego, Class of 2017</div>
+                        <div class="card-content">Graduated with Computer Science and Design degree</div>
+                    </div>
+
+                    <div class="vl"></div>
+
+                    <div class="blue white-text card timeline-cards hoverable">
+                        <div class="card-title">Software Engineer Intern</div>
+                        <h6>Nordson Asymtek (Mar - Jun, 2017)</h6>
+                        <div class="card-content">
+                            <ul>
+                                <li>I did something super awesome here.</li>
+                                <li>Another thing I rocked, and why you should hire me.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="vl"></div>
+
+                    <div class="pink lighten-1 white-text card timeline-cards hoverable">
+                        <div class="card-title">Product Development Intern</div>
+                        <h6>T-Mobile USA (Jun - Sept, 2017)</h6>
+                        <div class="card-content">
+                            <ul>
+                                <li>Patented brand-new product ideas.</li>
+                                <li>Principle member of UI/UX development for 4 dark products.</li>
+                                <li>Brainstormed and development full-stack software product for internal prototyping.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="vl"></div>    
+
+                    <div class="pink white-text card timeline-cards hoverable">
+                        <div class="card-title">Product &amp; Software Developer</div>
+                        <h6>T-Mobile USA (Sept, 2017 - Present)</h6>
+                        <div class="card-content">
+                            <ul>
+                                <li>Patented brand-new product ideas.</li>
+                                <li>Principle member of UI/UX development for 4 dark products.</li>
+                                <li>Brainstormed and development full-stack software product for internal prototyping.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
+<script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    });
+</script>

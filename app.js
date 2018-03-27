@@ -17,4 +17,4 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', index.view);
 
-app.listen(3000);
+module.exports = app;

@@ -1,8 +1,65 @@
-nav {
-    background-color: ;
+h1{
+    font-family: "Open Sans";
+    font-weight: 300;
+    color: white;
+}
+
+h2{
+    font-family: "Open Sans";
+    font-weight: 300;
+    color: white;
+}
+
+h3{
+    font-family: "Open Sans";
+    font-weight: 300;
+    color: white;
+}
+
+h4{
+    font-family: "Open Sans";
+    font-weight: 300;
+    color: white;
+}
+
+.vl{
+    border-left: 3px solid #cfd8dc;
+    height:100px;
+    text-align: center;
+    margin-left: 50%;
+    margin-right:50%;
+}
+
+nav{
+    background-color: #263238;
+    color: black;
     box-shadow: none;
 }
 
-nav ul a {
-    color: black;
+.deck-1{
+    width: auto;
+    height: 720px;
+    background: #546e7a;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.deck-1-content-sm{
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.deck-2{
+    width: auto;
+    height: auto;
+    background: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.timeline-cards{
+    margin-top: 0;
+    margin-bottom: 0;
 }
