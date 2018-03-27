@@ -1,23 +1,23 @@
 h1{
-    font-family: "Open Sans";
+    font-family: "Quicksand";
     font-weight: 300;
     color: white;
 }
 
 h2{
-    font-family: "Open Sans";
+    font-family: "Quicksand";
     font-weight: 300;
     color: white;
 }
 
 h3{
-    font-family: "Open Sans";
+    font-family: "Quicksand";
     font-weight: 300;
     color: white;
 }
 
 h4{
-    font-family: "Open Sans";
+    font-family: "Quicksand";
     font-weight: 300;
     color: white;
 }
@@ -31,7 +31,7 @@ h4{
 }
 
 nav{
-    background-color: #263238;
+    background-color: #bbdefb;
     color: black;
     box-shadow: none;
 }
@@ -39,7 +39,7 @@ nav{
 .deck-1{
     width: auto;
     height: 720px;
-    background: #455a64;
+    background: #bbdefb;
     padding-top: 15%;
     padding-bottom: 15%;
 }
