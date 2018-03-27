@@ -22,6 +22,12 @@ h4{
     color: white;
 }
 
+h5{
+    font-family: "Quicksand";
+    font-weight: 300;
+    color: white; 
+}
+
 .vl{
     border-left: 3px solid #cfd8dc;
     height:100px;

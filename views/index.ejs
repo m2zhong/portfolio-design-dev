@@ -37,7 +37,7 @@
                     <li><a href="sass.html"><i class="material-icons left">filter_vintage</i>Design</a></li>
                     <li><a href="badges.html"><i class="material-icons left">developer_mode</i>Software</a></li>
                     <li><a href="collapsible.html"><i class="material-icons left">description</i>Resume</a></li>
-                    <li><a class="waves-effect waves-light btn white black-text pulse">Say "Hi"<i class="material-icons left">chat_bubble_outline</i></a></li>
+                    <li><a class="waves-effect waves-light btn white black-text">Say "Hi"<i class="material-icons left">chat_bubble_outline</i></a></li>
                 </ul>
             </div>
         </div>
@@ -51,7 +51,7 @@
     </ul>
 
     <div class="deck-1 hide-on-med-and-up">
-        <h4 class="center-align">What are we looking for today?</h4>
+        <h5 class="center-align">What are we looking for today?</h5>
         <br>
         <div class="deck-1-content-sm">
             <div class="container">
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                     <div style="margin-top:30%">
-                        <img src="./images/arrow_down.gif" style="height: 30px; width: 50px;">
+                        <a id="slide-down-btn" href="#"><img src="./images/arrow_down.gif" style="height: 30px; width: 50px;"></a>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@
         <div class="deck-1-content">
             <div class="container">
                 <div class="center-align">
-                    <h4 class="center-align">What are we looking for today?</h4>
+                    <h5 class="center-align">What are we looking for today?</h5>
                     <br>
                     <div class="row">
                         <div class="col s4 m4 l4">
@@ -116,14 +116,14 @@
                         </div>
                     </div>
                     <div style="margin-top:15%">
-                        <img src="./images/arrow_down.gif" style="height: 30px; width: 50px;">
+                        <a id="slide-down-btn" href="#"><img src="./images/arrow_down.gif" style="height: 30px; width: 50px;"></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="deck-2">
+    <div class="deck-2" id="deck-2">
         <div class="container">
             <div class="center-align">
                 <div class="row">
@@ -159,7 +159,7 @@
                             <ul>
                                 <li>Patented brand-new product ideas.</li>
                                 <li>Principle member of UI/UX development for 4 dark products.</li>
-                                <li>Brainstormed and development full-stack software product for internal prototyping.</li>
+                                <li>Brainstormed and developed full-stack software product for internal prototyping.</li>
                             </ul>
                         </div>
                     </div>
@@ -173,8 +173,8 @@
                         <div class="card-content">
                             <ul>
                                 <li>Patented brand-new product ideas.</li>
-                                <li>Principle developer of UI/UX for 4 dark products.</li>
-                                <li>Brainstormed and development full-stack software product for internal prototyping.</li>
+                                <li>Led and designed UI/UX for 4 products.</li>
+                                <li>Brainstormed and developed full-stack software product for internal prototyping.</li>
                             </ul>
                         </div>
                     </div>
@@ -187,5 +187,13 @@
 <script>
     $(document).ready(function(){
         $('.sidenav').sidenav();
+        
+        // Scroll down when user clicks down-ward arrow Gif
+        $('a#slide-down-btn').on('click', function(event) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#deck-2").offset().top
+            }, 500);
+        });
     });
 </script>
