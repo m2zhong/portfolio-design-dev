@@ -25,7 +25,14 @@ h4{
 h5{
     font-family: "Quicksand";
     font-weight: 300;
+    color: #ffffff;
+}
+
+h6{
+    font-family: "Quicksand";
+    font-weight: 300;
     color: #424242;
+    font-size: 18px;
 }
 
 p{
@@ -56,6 +63,7 @@ nav{
     background-color: #ffffff;
     color: white;
     box-shadow: none;
+    margin-bottom: 10px;
 }
 
 nav ul a {
@@ -64,16 +72,16 @@ nav ul a {
 
 .deck-1{
     width: auto;
-    height: 640px;
-    background: white;
+    height: 200px;
+    background: #F44336;
     padding-top: 15%;
-    padding-bottom: 5%;
+    padding-bottom: 15%;
 }
 
 .deck-1-top{
     width: auto;
     height: 200px;
-    background: white;
+    background: #F44336;
     padding-top: 5%;
     padding-bottom: 5%;
 }

@@ -28,6 +28,13 @@ h5{
     color: #424242;
 }
 
+h6{
+    font-family: "Quicksand";
+    font-weight: 300;
+    color: #424242;
+    font-size: 18px;
+}
+
 p{
     font-family: "Quicksand";
     font-weight: 300;
@@ -56,6 +63,7 @@ nav{
     background-color: #ffffff;
     color: white;
     box-shadow: none;
+    margin-bottom: 5%;
 }
 
 nav ul a {
@@ -64,18 +72,18 @@ nav ul a {
 
 .deck-1{
     width: auto;
-    height: 640px;
-    background: white;
-    padding-top: 15%;
-    padding-bottom: 5%;
+    height: 200px;
+    background: #03a9f4;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .deck-1-top{
     width: auto;
     height: 200px;
-    background: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    background: #03a9f4;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .deck-1-btm{

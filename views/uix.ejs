@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+    <title>Michael Design</title>
+
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <!-- Import Stylesheet -->
+    <link rel="stylesheet" href="./css/uix.css">
+
+    <!-- importing JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <!--Import fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+    <!--Import icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Optimizing website for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+    <nav class="valign-wrapper">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="/" class="brand-logo"><h4>MICHAEL ZHONG</h4></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="black-text material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="collapsible.html"><i class="material-icons left">description</i>Resume</a></li>
+                    <li><a class="waves-effect waves-light btn red white-text" href="https://www.linkedin.com/in/m2zhong/">Say "Hi"<i class="material-icons left">chat_bubble_outline</i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="/"><i class="material-icons left">home</i>Home</a></li>
+        <li><a href="/uix"><i class="material-icons left">filter_vintage</i>Design</a></li>
+        <li><a href="/code"><i class="material-icons left">developer_mode</i>Software</a></li>
+        <li><a href="collapsible.html"><i class="material-icons left">description</i>Resume</a></li>
+        <li><a class="waves-effect waves-light btn red white-text" href="https://www.linkedin.com/in/m2zhong/">Say "Hi"<i class="material-icons white-text left">chat_bubble_outline</i></a></li>
+    </ul>
+
+    <!-- SMALL SIZE -->
+    <div class="deck-1 hide-on-med-and-up">
+        <br>
+        <div class="deck-1-content-sm">
+            <div class="container">
+                <div class="center-align">
+                    <div class="row">
+                        <div class="col s12 m12 l12" style="height: 200px">
+                            <h5>DESIGN WORKS</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- LARGE_MEDIAN SIZE -->
+    <div class="deck-1-top hide-on-small-only">
+        <div class="container">
+            <div class="center-align">
+                <h5>DESIGN WORKS</h5>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="deck-2" id="deck-2">
+        <div class="container">
+            <div class="center-align">
+                <div class="row" id="greetings">
+                    <br>
+                    <h4>-Place Holder-</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+
+        $('div#greetings').delay(300).fadeIn(500);
+
+        // Scroll down when user clicks down-ward arrow Gif
+        $('a#slide-down-btn').on('click', function(event) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#deck-2").offset().top
+            }, 500);
+        });
+    });
+</script>
