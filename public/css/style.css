@@ -64,7 +64,7 @@ nav ul a {
 
 .deck-1{
     width: auto;
-    height: 640px;
+    height: 540px;
     background: white;
     padding-top: 15%;
     padding-bottom: 5%;
@@ -74,16 +74,16 @@ nav ul a {
     width: auto;
     height: 200px;
     background: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .deck-1-btm{
     width: auto;
-    height: 400px;
+    height: 300px;
     background: white;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 100px;
+    padding-bottom: 40px;
 }
 
 .deck-1-content-sm{
@@ -99,6 +99,13 @@ nav ul a {
     background: #ffffff;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.footer{
+    height: 100px;
+    width: auto;
+    padding-left: 40%;
+    padding-right: 40%;
 }
 
 .timeline-cards{

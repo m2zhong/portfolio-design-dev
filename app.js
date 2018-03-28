@@ -4,7 +4,7 @@ var logger = require('morgan');
 var path = require('path');
 var index = require('./route/index');
 var uix = require('./route/uix');
-var code = require('./route/code');
+var software = require('./route/software');
 var about = require('./route/about');
 var bodyParser = require('body-parser');
 
@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', index.view);
 app.get('/uix', uix.view);
-app.get('/code', code.view);
+app.get('/software', software.view);
 app.get('/about', about.view);
 
 module.exports = app;

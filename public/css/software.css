@@ -88,7 +88,7 @@ nav ul a {
 
 .deck-1-btm{
     width: auto;
-    height: 400px;
+    height: 300px;
     background: white;
     padding-top: 10%;
     padding-bottom: 10%;
@@ -103,10 +103,17 @@ nav ul a {
 
 .deck-2{
     width: auto;
-    height: auto;
+    height: 640px;
     background: #ffffff;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.footer{
+    height: 100px;
+    width: auto;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
 .timeline-cards{
