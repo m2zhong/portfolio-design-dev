@@ -119,6 +119,11 @@ nav ul a {
     padding-bottom: 10px;
 }
 
+.card-image img{
+    width: auto;
+    height: 150px;
+}
+
 .footer{
     height: auto;
     width: auto;
